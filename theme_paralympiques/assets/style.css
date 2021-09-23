@@ -89,7 +89,7 @@ section.apiArt hr{
 /* CSS DU FOOTER  */
 footer{
     width: 100vw;
-    height: 30vw;
+    height: auto;
     margin: 5rem 0 0 0;
     background-color: #232323;
     display: flex;
@@ -119,11 +119,19 @@ footer h2{
 }
 .tabs{
     font-weight: 400;
+    text-align: center;
+}
+.rights p{
+    margin: 2rem;
+}
+.pages p{
+    margin: 2rem;
 }
 @media only screen and (min-width: 724px){
     footer{
         flex-direction: row;
         justify-content: space-around;
+        height: 45vh;
     }
     .tabs{
         margin-bottom: 4rem;
