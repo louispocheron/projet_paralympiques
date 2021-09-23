@@ -12,10 +12,10 @@
     include 'header.php'; 
     ?>
   <u><h1 class=actus>Actualités</h1></u>
-<div id="api"></div>
-<?php
-include 'footer.php';
-?>
+  <div id="api"></div>
+  <?php
+  include 'footer.php';
+  ?>
 </body>
 <script src="assets/app.js"></script>
 </html>

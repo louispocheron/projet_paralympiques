@@ -65,8 +65,6 @@ section.apiArt{
     justify-content: center;
     margin: 2rem 0 0 1rem;
     width: 80vw;
-    /* border: solid 2px black;
-    background-color: rebeccapurple; */
 }
 #api a{
     text-decoration: none;
@@ -83,13 +81,15 @@ section.apiArt .child:nth-child(2){
 }
 section.apiArt hr{
     width: 15rem;
+    height: 1px;
+    background-color: black;
     position: absolute;
 }
 
 /* CSS DU FOOTER  */
 footer{
     width: 100vw;
-    height: auto;
+    height: 30vw;
     margin: 5rem 0 0 0;
     background-color: #232323;
     display: flex;
